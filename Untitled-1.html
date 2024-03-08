@@ -4,43 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Saya</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        .profile-img {
-            display: block;
-            margin: 0 auto;
-            border-radius: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Profil Saya</h1>
-        <img class="profile-img" src="profile-picture.jpg" alt="Profil Saya">
-        <p>Nama: John Doe</p>
-        <p>Umur: 30 tahun</p>
-        <p>Alamat: Jalan Contoh No. 123, Kota Contoh</p>
-        <p>Email: john@example.com</p>
-        <p>Telepon: 123-456-7890</p>
+
+    <header class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h1 class="display-4">Profil Saya</h1>
+        </div>
+    </header>
+
+    <section class="container my-4">
         <h2>Tentang Saya</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet justo vel nisi condimentum pulvinar ut sit amet nunc. Phasellus bibendum dapibus neque non hendrerit. Donec ultrices felis non gravida consequat. Sed nec enim quam. Fusce non ligula vel justo eleifend ultricies. Curabitur bibendum erat vitae justo euismod aliquam.</p>
-    </div>
+        <p>Nama saya: John Doe</p>
+        <p>Umur: 30 tahun</p>
+        <p>Pekerjaan: Web Developer</p>
+    </section>
+
+    <section class="container my-4">
+        <h2>Pendidikan</h2>
+        <ul>
+            <li>SMA Negeri 1 Surabaya</li>
+            <li>Sarjana Teknik Informatika, Universitas A</li>
+            <li>Magister Teknologi Informasi, Universitas B</li>
+        </ul>
+    </section>
+
+    <section class="container my-4">
+        <h2>Keterampilan</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section class="container my-4">
+        <h2>Kontak</h2>
+        <p>Email: john.doe@example.com</p>
+        <p>Telepon: 123-456-789</p>
+        <p>alamak</p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
